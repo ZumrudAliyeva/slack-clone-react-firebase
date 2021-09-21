@@ -18,6 +18,7 @@ const signOut = e => {
       <HeaderLeft>
         <HeaderAvatar
         onClick={signOut}
+        title="Log out"
         alt={user?.displayName}
         src={user?.photoURL}
         />
