@@ -27,7 +27,7 @@ const signOut = e => {
       
       <HeaderSearch>
         <Search />
-        <input placeholder="search the Mamareact" />
+        <input placeholder="search the react" />
       </HeaderSearch>
 
       <HeaderRight>
