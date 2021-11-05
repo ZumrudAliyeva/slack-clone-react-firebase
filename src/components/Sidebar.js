@@ -26,7 +26,7 @@ function Sidebar() {
     <SidebarContainer>
       <SidebarHeader>
         <SidebarInfo>
-          <h2>MAMA REACT</h2>
+          <h2>Mama REACT</h2>
           <h3>
             <FiberManualRecord />
             {user.displayName}
