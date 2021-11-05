@@ -84,6 +84,17 @@ const HeaderRight = styled.div`
     font-size: 16px;
     margin-right: 5px;
   }
+  @media screen and (max-width: 768px){
+    > p {
+    display: flex;
+    align-items: center;
+    font-size: 0.6rem;
+  }
+  > p > .MuiSvgIcon-root {
+    font-size: 0.6rem;
+    margin-right: 4px;
+  }
+}
 `;
 
 const HeaderLeft = styled.div`
@@ -97,6 +108,15 @@ const HeaderLeft = styled.div`
   > h4 > .MuiSvgIcon-root {
     font-size: 18px;
   }
+  @media screen and (max-width: 768px){
+    > h4 {
+    font-size: 0.8rem;
+  }
+  > .MuiSvgIcon-root {
+    font-size: 1rem;
+    margin-top: 2px;
+  }
+}
 `;
 
 const Header = styled.div`
@@ -106,6 +126,13 @@ const Header = styled.div`
   padding: 20px;
   height: 60px;
   border-bottom: 1px solid lightgray;
+  @media screen and (max-width: 768px){
+  padding: 10px;
+  padding-bottom: 18px;
+  height: 40px;
+  align-items: center;
+}
+
 `;
 
 const ChatContainer = styled.div`
@@ -116,4 +143,7 @@ const ChatContainer = styled.div`
   overflow-y: scroll;
   margin-top: 60px;
   position: relative;
+  @media screen and (max-width: 768px){
+
+}
 `;

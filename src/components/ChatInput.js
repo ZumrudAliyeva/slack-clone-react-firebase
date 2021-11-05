@@ -69,4 +69,11 @@ const ChatInputContainer = styled.div`
   > form > button {
     display: none !important;
   }
+  @media screen and (max-width: 768px){
+  > form > input {
+    width: 67%;
+    margin-left: 10px;
+    padding: 10px 15px;
+  }
+}
 `;

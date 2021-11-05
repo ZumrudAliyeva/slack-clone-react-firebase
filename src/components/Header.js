@@ -49,6 +49,12 @@ justify-content: flex-end;
 margin-left: auto;
 margin-right: 20px;
 }
+
+@media screen and (max-width: 768px){
+> .MuiSvgIcon-root{
+margin-right: 10px;
+}
+}
 `;
 
 const HeaderSearch = styled.div`
@@ -70,6 +76,9 @@ const HeaderSearch = styled.div`
     outline: none;
     color: white;
   }
+  @media screen and (max-width: 768px){
+    padding: 0 15px;
+}
 `;
 
 const HeaderContainer = styled.div`
@@ -81,6 +90,9 @@ const HeaderContainer = styled.div`
   padding: 10px 0px;
   background-color: var(--slack-color);
   color: white;
+  @media screen and (max-width: 768px){
+    padding: 5px 0px;
+}
 `;
 
 const HeaderLeft = styled.div`
@@ -93,6 +105,11 @@ const HeaderLeft = styled.div`
     margin-left: auto;
     margin-right: 25px;
   }
+  @media screen and (max-width: 768px){
+  margin-left: 10px;
+  justify-content: space-between;
+}
+
 `;
 
 const HeaderAvatar = styled(Avatar)`
@@ -100,4 +117,7 @@ const HeaderAvatar = styled(Avatar)`
   :hover {
     opacity: 0.8;
   }
+  @media screen and (max-width: 768px){
+  margin-right: 35px;
+}
 `;

@@ -63,4 +63,29 @@ padding: 0 22px;
 >button > span > img{
     width: 42px !important;
 }
+@media screen and (max-width: 768px){
+padding: 35px;
+margin: 25px;
+justify-content: center;
+text-align: center;
+h1{
+  font-size: 1.5rem;
+}
+p{
+  font-size: 0.8rem;
+}
+>img{
+    width: 100px;
+    margin-bottom: 25px;
+}
+>button{
+margin-top: 30px;
+font-size: 1rem;
+font-weight: 500;
+padding: 0 18px;
+}
+>button > span > img{
+    width: 38px !important;
+}
+}
 `;
